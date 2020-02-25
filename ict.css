@@ -1,0 +1,99 @@
+div,ul,li,h1{padding:0px; margin:0px;}
+body{background-color:white;}
+#header{ height:auto;  width:100%; margin:auto; }
+
+
+.middle{margin-top:5px;height:60px; width:100%; border:none;}
+#logo{height:100%;width:100%; }
+h4{float:right;letter-spacing:4px;}
+
+
+.menu{height:40px;width:100%;background-color:hsl(147, 50%, 47%);}
+#main-menu{height:100%;width:60%;float:left;clear:right;display:inline-block;}
+#main-menu ul{}
+#main-menu ul li{list-style:none;display:inline;color:black;}
+#main-menu ul li a{padding:10px 10px 10px 10px;text-decoration:none;letter-spacing:1px;font-family:Arial,Helvetica,sans-serif;font-size:15px;color:white;}
+#main-menu ul li a:hover{background:#FF7F50;padding:2px;}
+#active,#main-menu ul li a:hover{background:#FF7F50;}
+
+#search{float:left;clear:right; height:100%; width:29%;position: relative;}
+#sign{
+	float:right;margin-top:5px;text-decoration:none;font-family:sans-serif;
+	list-style:none;color:white;
+	height:100%;width:9%;
+}
+#sign li a{list-style:none;color:white;text-decoration:none;}
+#sign li a:hover{background:#FF7F50;padding:2px;}
+
+.section {height:800px;width:100%;clear:right; display: -webkit-flex;display: flex;}
+#nav{ }
+#nav ul{height:40px;width:30%; float:left;clear:right;}
+#nav ul li{padding:20px;clear:right;}
+#nav ul li a{color:rgb(70 70 70);width:30%;border-right:1px hsl(147, 50%, 47%) solid;padding:5px 10px 10px 5px;letter-spacing:1px;font-family:Arial,Helvetica,sans-serif;;font-size:15px;text-decoration:none;}
+#nav ul li a:hover{background:#FF7F50;padding:2px;}
+
+article{float:right; }
+.footer{height:200px;width:100%;background:#919494;}
+.about{
+	font-family:sans-serif;
+	list-style:none;
+	text-decoration:none;
+	float:left;
+	clear:right;
+	width:25%;
+	height:100%
+	overflow:hidden;
+	margin-left:150px;
+	
+}
+.social{
+	font-family:sans-serif;
+	list-style:none;
+	text-decoration:none;
+	float:left;
+	clear:right;
+	width:25%;
+	height:100%
+	overflow:hidden;
+}
+.help{
+	font-family:sans-serif;
+	list-style:none;
+	text-decoration:none;
+	float:left;
+	clear:right;
+	width:25%;
+	height:100%
+	overflow:hidden;
+}
+.fot{
+	display:block;
+	padding:16px 20px;
+	color:white;
+	
+	
+}
+.smenu a{
+  display:block;
+	padding:5px 26px;
+	color:white;
+	font-size:14px;
+	position:relative;
+	text-decoration:none;
+}
+.smenu a:hover{background:#FF7F50;padding:2px;width:100px;}
+ 
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
